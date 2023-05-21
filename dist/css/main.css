@@ -245,13 +245,22 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); } 
+    
+
+     
+  }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
+  .sec1{
+     
+    grid-template-columns: 1fr;
+    
+   }
   main {
     align-items: center;
     text-align: center; }
@@ -292,4 +301,18 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .sec1{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.2rem;
+      margin: 2rem 0;
+     }
+
+     .cht-image{
+      width: 100%;
+      height: 300px;
+      border: 1px solid bisque;
+     }
+
+   }
